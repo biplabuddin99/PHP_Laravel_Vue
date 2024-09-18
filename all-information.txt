@@ -1,6 +1,9 @@
-modiul-1: 
+module-1: 
 2.vs extention:one dark pro, Material Icon Theme ,Prettier - Code formatter , devsense ,Code Runner,
 
 3.(Ctrl+shift+p)then search formate show shortcut key(shift+alt+f)
 4.free img https://unsplash.com/  or https://www.pexels.com/ or https://www.freepik.com/
 5.font: https://www.jetbrains.com/lp/mono/
+
+module-2:
+vs extention: Tailwind CSS IntelliSense
