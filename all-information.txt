@@ -7,3 +7,9 @@ module-1:
 
 module-2:
 vs extention: Tailwind CSS IntelliSense
+
+module-4:
+vs extention: devsense, Code Runner
+
+module-6:
+browser extention: daily devs, desigh: muz.li , dev.to , github.com/explore
