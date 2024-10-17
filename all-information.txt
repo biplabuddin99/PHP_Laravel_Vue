@@ -13,3 +13,11 @@ vs extention: devsense, Code Runner
 
 module-6:
 browser extention: daily devs, desigh: muz.li , dev.to , github.com/explore
+
+module-7:
+what is array?
+indexed array.
+how to loop over Indexed array
+Associative arrays.
+How to loop over Associative Arrays.
+multidimentional arrays
