@@ -21,3 +21,4 @@ how to loop over Indexed array
 Associative arrays.
 How to loop over Associative Arrays.
 multidimentional arrays
+flipped array(revers key value)
