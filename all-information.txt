@@ -22,3 +22,15 @@ Associative arrays.
 How to loop over Associative Arrays.
 multidimentional arrays
 flipped array(revers key value)
+
+module-8
+terms class,object,constractor,
+Classes | Objects | Methods | Properties | Public and Private Methods and Properties of Classes | Writing a Real-Life Useful Class | Inheritance | Abstract | Static |
+
+module-9:
+parse error(syntax error);
+fatal error
+warning error
+notice error
+stric error
+user error
