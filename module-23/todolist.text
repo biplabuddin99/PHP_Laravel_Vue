@@ -1,0 +1,61 @@
+1.  What is Vite
+2.  Tools -> Node JS
+3.  Code Editor-> Webstorm
+4.  Create a new vue project using vite 'npm create vite@latest'
+5.  To download js modules 'npm install' inside your project folder
+6.  How to run vue js project 'npm run dev'
+7.  How to build vue js project 'npm run build'
+8.  Stand alone Vue js is not secure
+9.  Vue js has 0.0 Security
+10. Vue js code goes to your user browser
+11. Laravel will provide vue Security
+13. Intro to Vue js project structure
+14. Vue framework
+15. Lets organize our directory
+
+16. App(Grand Parent) Home Page (Parent Component)-
+        - Navbar      (Child Component)
+        - Footer      (Child Component)
+        - Hero        (Child Component)
+        - Recomanded  (Child Component)
+        - Contact     (Child Component)
+        - Testimonial (Child Component)
+
+
+17. How to composer/create a component
+        - template -> html, inline-css,{{javaScript}}
+        - script
+        - style
+
+""""""""""""""""""""""""""""""""""""""""""
+<template>
+  <h1 style="color: red">Hello</h1>
+  <button>Submit</button>
+  <h1 class="my-text">{{2+2}}</h1>
+  <h1>{{new Date()}}</h1>
+  <h1>{{num1}}</h1>
+  <h1>{{num2}}</h1>
+  <h1>{{sum}}</h1>
+  <h1>{{myFun("I am parms")}}</h1>
+</template>
+
+<script setup>
+  let num1=10
+  let num2=10
+  let sum=num1+num2
+  const myFun=(msg)=>{
+    return msg
+  }
+</script>
+
+
+<style scoped>
+  .my-text{
+    color:green;
+  }
+</style>
+
+""""""""""""""""""""""""""""""""""""""""""
+
+
+18. How to add child components with parent
