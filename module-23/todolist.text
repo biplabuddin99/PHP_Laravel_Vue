@@ -38,7 +38,6 @@
   <h1>{{sum}}</h1>
   <h1>{{myFun("I am parms")}}</h1>
 </template>
-
 <script setup>
   let num1=10
   let num2=10
@@ -56,6 +55,5 @@
 </style>
 
 """"""""""""""""""""""""""""""""""""""""""
-
 
 18. How to add child components with parent
