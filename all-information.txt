@@ -43,3 +43,12 @@ Variables, operators, comments | Data types, if-else statements | switch case st
 
 module-22
 Modern JavaScript & Ajax
+
+module-23
+talilwin template: https://lbegey.fr/templates-tailwind.html
+https://htmlrev.com/
+
+VUE project install:
+npm create latest@vue project-ProductName
+npm install
+npm run dev
