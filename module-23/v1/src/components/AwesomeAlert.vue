@@ -1,11 +1,27 @@
 <script setup>
-defineProps([
-    'heading',
-    'message'
-])
+// defineProps([
+//     'heading',
+//     'message',
+//     'color'
+// ])
+
+defineProps({
+   heading:{
+    type:String,
+    default:'Heading'
+   } ,
+   message:{
+type:String,
+default:'Message',
+   },
+   color:{
+    type:String,
+    default:'blue'
+   }
+})
 </script>
 <template>
-<div class="p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400" role="alert">
+<div class="p-4 mb-4 text-sm  rounded-lg dark:bg-gray-800 dark:text-blue-400" :class="`text-${color}-800 bg-${color}-50`" role="alert">
     <span class="font-medium">Info alert!</span> change a few things up and try submitting again.
     <br/>
     <span class="font-medium">{{ heading }}</span>{{message}}
