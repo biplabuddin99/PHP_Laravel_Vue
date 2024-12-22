@@ -52,3 +52,5 @@ VUE project install:
 npm create latest@vue project-ProductName
 npm install
 npm run dev
+
+git linK:https://github.com/lbegey/tw-lingare-tpl/blob/main/index.html#L25
