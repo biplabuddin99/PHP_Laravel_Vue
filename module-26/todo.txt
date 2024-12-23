@@ -1,0 +1,15 @@
+1. What is Form Input Binding & How to bind
+2. How v-model directive is used?
+3. How to manage different types of input type using v-model
+4. How to set & get input type values using v-model
+5. Event
+    @click
+    @submit
+    @change
+    @keyUp
+    @keyDown
+
+6. Submit JSON Body Using Application/JSON Header
+7. Submit Form Data Using multipart/form-data Header
+
+
