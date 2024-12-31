@@ -1,0 +1,11 @@
+1. Create A New View Project
+  a. npm create vite@latest
+2. What is State
+3. How to Implement State in Vue Component
+4. ref() -> single values
+5. ref() -> Object
+6. ref state is immutable
+7. Virtual DOM
+
+8. reactive() -> Object
+9. reactive state is immutable
