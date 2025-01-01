@@ -4,7 +4,7 @@ const color ='red';
 
 <template>
 <h1>Hello</h1>
-<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 rounded">Button</button>
+<button class="text-white font-bold py-2 px-2 rounded" :class="`bg-${color}-500 hover:bg-${color}-700`">Button</button>
 
 </template>
 
