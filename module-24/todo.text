@@ -9,3 +9,14 @@
 
 8. reactive() -> Object
 9. reactive state is immutable
+
+10. Call API And Render using state
+https://dummyjson.com/products
+
+12. Rendering
+
+13. Using v-for Client Side Rendering
+
+13. V-if V-else Conditional Rendering
+
+14. How set loader in ajax call
