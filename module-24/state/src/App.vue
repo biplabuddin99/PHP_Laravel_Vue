@@ -7,7 +7,7 @@ const lastName=ref("Doe")
 <template>
  <h1>Name = {{ firstName }} {{ lastName }}</h1>
  <input type="text" v-model="firstName">
- <NameComponent :firstName="firstName" :lastName="lastName"/>
+ <NameComponent v-model:firstName="firstName" :lastName="lastName"/>
 </template>
 <style scoped>
 </style>
