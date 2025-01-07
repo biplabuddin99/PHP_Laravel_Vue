@@ -1,6 +1,14 @@
 <script setup>
+import { onMounted } from 'vue';
 import ThemeSwitcher from './components/ThemeSwitcher.vue';
 import { theme } from './data/theme';
+
+//mounted
+onMounted(()=>{
+  if(savedTheme){
+    Object.assign(theme.JSON.parse(savedTheme))
+  }
+})
 </script>
 
 <template>
@@ -9,6 +17,13 @@ import { theme } from './data/theme';
   <!-- <p>Theme: {{ theme }}</p> -->
    <button class="mt-10 font-bold py-2 px-4 rounded" :class="`bg-${theme.bgcolor}-500 text-${theme.buttonTextColor}-100`">Save</button>
 </div>
+<div>
+  <p class="mt-5" :class="`text-${theme.bgcolor}-800`">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ut ipsum at hic vero maxime laborum voluptate cumque sed autem!
+  </p>
+</div>
+<br>
+<hr>
 <ThemeSwitcher/>
 </template>
 
