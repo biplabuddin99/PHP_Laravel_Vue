@@ -2,8 +2,9 @@
 import { onMounted } from 'vue'
 import ThemeSwitcher from './components/ThemeSwitcher.vue';
 import { theme } from './data/theme';
-import { useStore } from './data/store';
-const store = useStore();
+// import { useStore } from './data/store';
+// const store = useStore();
+import {store} from './data/normalstore'
 
 
 //mounted
