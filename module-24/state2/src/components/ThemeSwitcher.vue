@@ -1,10 +1,12 @@
 <script setup>
-import { theme } from '@/data/theme';
+// import { theme } from '@/data/theme';
+import { theme } from '../data/theme.js';
 function updateTheme(value){
     theme.bgcolor=value
     theme.textColor=value
     theme.buttonColor=value
     theme.buttonTextColor=value
+    localStorage.setItem('theme', JSON.stringify(theme))
 }
 </script>
 <template>

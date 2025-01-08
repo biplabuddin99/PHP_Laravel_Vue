@@ -3,5 +3,5 @@ export const theme= reactive({
     bgcolor: "gray",
     buttonColor:"gray",
     textColor:"gray",
-    buttonTextColor:"white"
+    buttonTextColor:"gray"
 })
