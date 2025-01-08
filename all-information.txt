@@ -54,3 +54,10 @@ npm install
 npm run dev
 
 git linK:https://github.com/lbegey/tw-lingare-tpl/blob/main/index.html#L25
+
+Module 24
+[Vue] State Management, Style Binding, Conditional Rendering, List Rendering
+
+Module 26
+npm create vite@latest
+project-Name
