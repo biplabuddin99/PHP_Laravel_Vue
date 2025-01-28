@@ -12,8 +12,6 @@ onBeforeMount(async () => {
     <h1>Blog</h1>
     <p>Welcome to the blog page</p>
 
-  
-    
     <article v-for="post in posts" :key="post.id">
         <h2>
             <RouterLink :to="{name:'Post', params: {id: post.id}}">
