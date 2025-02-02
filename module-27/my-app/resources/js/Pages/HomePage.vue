@@ -1,5 +1,5 @@
 <template>
-    <!-- <AppNavBar/> -->
+    <AppNavBar/>
     <h1>HomePage</h1>
 </template>
 
