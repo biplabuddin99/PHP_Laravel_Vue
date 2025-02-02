@@ -1,0 +1,64 @@
+1. Laravel Project Creation
+composer create-project laravel/laravel my-app
+
+2. Server Side Install
+        (a) Inertia composer installation
+            - composer require inertiajs/inertia-laravel
+        (b) Configure Blade Template Engine - Prepare Master Blade Layout
+            - /views/app.blade.php
+        (c) Create Inertia Middleware
+            - php artisan inertia:middleware
+        (d) Add Inertia Middleware With Your Route Middleware
+            -  $middleware->web(append: [
+                          HandleInertiaRequests::class,
+                      ]);
+
+
+3. Client Side Install
+        (a) Install Vue JS
+            npm install @inertiajs/vue3
+
+        (b) configure vite
+            - npm i @vitejs/plugin-vue
+
+            vite.config.js file Add
+            import vue from "@vitejs/plugin-vue";
+             vue(),
+
+        (c) configure app.js
+             - npm i vue
+             - import { createApp, h } from 'vue'
+             - import { createInertiaApp } from '@inertiajs/vue3'
+             -createInertiaApp({
+                resolve: name => {
+                  const pages = import.meta.glob('./Pages/**/*.vue', { eager: true })
+                  return pages[`./Pages/${name}.vue`]
+                },
+                setup({ el, App, props, plugin }) {
+                  createApp({ render: () => h(App, props) })
+                    .use(plugin)
+                    .mount(el)
+                },
+              })
+
+4. Vue js front end structure inside  resources/js/-
+    - Components (Naming Convention Optional)
+    - Utility (Naming Convention Optional)
+    - Pages (Naming Convention Mandatory)
+
+5. Lets create our first website
+    - Home Page [AppNavbar+Hero+Footer]
+    - Profile page [AppNavbar+ProfileForm+Footer]
+    - Lets create a controller SiteController
+    - Lets create function for Render Vue.js Pages
+    - Lets define route in web.php
+
+6. Let's Run Our Laravel+Vue Project
+   - php artisan serve
+   - npm run dev
+   - Access From Running Via Vite
+   - Access From Running Via Artisan
+
+8. How Rendering Works Here
+   - "/" Route-->Middleware-->Controller-->Render--->HomePage.vue
+   - "/profile" Route-->Middleware-->Controller-->Render--->ProfilePage.vue

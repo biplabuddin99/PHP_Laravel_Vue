@@ -61,3 +61,7 @@ Module 24
 Module 26
 npm create vite@latest
 project-Name
+
+Module 27
+follow the documendation
+https://inertiajs.com/
