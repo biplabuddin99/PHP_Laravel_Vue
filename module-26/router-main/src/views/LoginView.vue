@@ -4,8 +4,6 @@ import router from '../router/index.js'
 const username = ref('')
 const password = ref('')
 
-
-
 const login = () => {
     if(username.value === 'admin' && password.value === 'admin') {
         localStorage.setItem('loggedin', 1)
