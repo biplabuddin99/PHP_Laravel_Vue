@@ -69,4 +69,8 @@ https://inertiajs.com/
 class-2
 https://www.warp.dev/
 
+laravel inertia all
+https://medium.com/@mrrabbilhasan/laravel-vue-or-laravel-react-integration-with-laravel-inertia-tutorial-e41a0b9d7124
+
+
 মডিউল ২৮:
