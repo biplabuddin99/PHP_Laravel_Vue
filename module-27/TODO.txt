@@ -63,10 +63,8 @@ composer create-project laravel/laravel my-app
    - "/" Route-->Middleware-->Controller-->Render--->HomePage.vue
    - "/profile" Route-->Middleware-->Controller-->Render--->ProfilePage.vue
 
-
 9. Set Our First SPA Navigation
    - Use Inertia Build In Link component
-
 
 10. How to set Routing Progress Like Next JS
    -    npm i nprogress
