@@ -66,6 +66,7 @@ composer create-project laravel/laravel my-app
 9. Set Our First SPA Navigation
    - Use Inertia Build In Link component
 
+   
 10. How to set Routing Progress Like Next JS
    -    npm i nprogress
    -    Add CSS CDN <link rel="stylesheet" href="{{url('https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css')}}" />
