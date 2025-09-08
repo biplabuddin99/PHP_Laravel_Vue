@@ -1,6 +1,6 @@
 <template>
     <NavLayout>
-            <LoginForm/>
+        <LoginForm/>
     </NavLayout>
 </template>
 <script setup>
